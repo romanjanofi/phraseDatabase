@@ -6,7 +6,6 @@ body{
 .content {
    max-width: 900px;   
    margin: 50% auto;
-
 }
 .header {
    max-width: 100%;
@@ -23,23 +22,19 @@ body{
 }
 .main {
    background: rgb(253, 159, 116);
-
 		&_row {display: flex;
          flex-direction: row;
          justify-content: center;
 		}
-
 		&_ask {
 		}
-
 		&_column { 
          p{  margin: 0px 0px 5px 5px;
             padding: 0;
             font-family: 'Times New Roman', Times, serif;
             font-size: 15px;
             font-weight: 700;
-            text-align: center;
-            
+            text-align: center;   
          }
          input{
             width: 100%;
@@ -60,12 +55,10 @@ body{
          &.red
          {background: rgba(241, 25, 248, 0.274);}
 		}
-
 		&_result {
 		}
 }
 .adjective {
 }
-
 .noun {
 }
